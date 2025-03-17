@@ -1,40 +1,76 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nursing Department</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ฝ่ายการพยาบาล</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cordia+New&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>Welcome to Nursing Department</h1>
-        <nav>
-            <ul>
-                <li><a href="#announcements">Announcements</a></li>
-                <li><a href="#articles">Articles</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>ฝ่ายการพยาบาล</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">🏠 หน้าแรก</a></li>
+                    <li class="dropdown">
+                        <a href="#">📌 เกี่ยวกับ</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">ประวัติฝ่ายการพยาบาล</a></li>
+                            <li><a href="#">โครงสร้าง</a></li>
+                            <li><a href="#">หัวหน้าพยาบาล</a></li>
+                            <li><a href="#">ความภาคภูมิใจ</a></li>
+                            <li><a href="#">หน่วยงานต่างๆ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">📖 งานวิชาการ</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">CNPG</a></li>
+                            <li><a href="#">Research and Article</a></li>
+                            <li><a href="#">Journal Club</a></li>
+                            <li><a href="#">ผลงานพัฒนาคุณภาพฝ่ายการพยาบาล</a></li>
+                            <li><a href="#">Handout SPSS</a></li>
+                            <li><a href="#">5 minutes statistic</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">🖼 อัลบั้มรูป</a></li>
+                    <li><a href="#">📞 ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="announcements">
-        <h2>Latest Announcements</h2>
-        <p>Upcoming meeting on March 20th. Check your email for details.</p>
+    <section class="announcement">
+        <div class="container glass">
+            <h2>📢 ประกาศล่าสุด</h2>
+            <ul>
+                <li>📅 [15 มีนาคม 2025] การประชุมวิชาการครั้งที่ 10</li>
+                <li>📅 [20 มีนาคม 2025] งานสัมมนาฝ่ายการพยาบาล</li>
+                <li>📅 [5 เมษายน 2025] เปิดรับสมัครงานวิจัยใหม่</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="articles">
-        <h2>Published Articles</h2>
-        <p><a href="article1.html">Understanding Patient Care</a></p>
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <img src="photo1.jpg" alt="Nursing event photo">
+    <section class="gallery">
+        <div class="container glass">
+            <h2>🖼 อัลบั้มรูป</h2>
+            <div class="image-grid">
+                <img src="image1.jpg" alt="Event 1">
+                <img src="image2.jpg" alt="Event 2">
+                <img src="image3.jpg" alt="Event 3">
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>© 2024 Nursing Department</p>
+        <div class="container">
+            <p>© 2025 ฝ่ายการพยาบาล | ออกแบบโดย ทีมพัฒนาเว็บ</p>
+        </div>
     </footer>
+
 </body>
 </html>
